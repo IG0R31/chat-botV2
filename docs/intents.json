@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Oi",
+        "Ei",
+        "Como você está?",
+        "Tem alguém aí?",
+        "Olá",
+        "Bom dia"
+      ],
+      "responses": [
+        "Oi :-)",
+        "Olá, obrigado por visitar",
+        "Oi, como posso te ajudar?",
+        "Oi, em que posso ajudar?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Tchau", "Até mais", "Adeus"],
+      "responses": [
+        "Até mais, obrigado pela visita",
+        "Tenha um bom dia",
+        "Tchau! Volte novamente em breve."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Obrigado", "Obrigado(a)", "Isso ajudou", "Muito obrigado!"],
+      "responses": ["Feliz em ajudar!", "Sempre que precisar!", "O prazer é meu"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Quais itens vocês têm?",
+        "Que tipos de itens existem?",
+        "O que vocês vendem?"
+      ],
+      "responses": [
+        "Nós vendemos café e chá",
+        "Temos café e chá"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Vocês aceitam cartão de crédito?",
+        "Vocês aceitam Mastercard?",
+        "Posso pagar com Paypal?",
+        "Aceitam somente dinheiro?"
+      ],
+      "responses": [
+        "Aceitamos VISA, Mastercard e Paypal",
+        "Aceitamos a maioria dos principais cartões de crédito e Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "Quanto tempo demora a entrega?",
+        "Quanto tempo leva o envio?",
+        "Quando recebo minha entrega?"
+      ],
+      "responses": [
+        "A entrega leva de 2 a 4 dias",
+        "O envio leva de 2 a 4 dias"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Me conte uma piada!",
+        "Diga algo engraçado!",
+        "Você conhece uma piada?"
+      ],
+      "responses": [
+        "Por que o hipster queimou a boca? Porque ele tomou o café antes de esfriar.",
+        "O que o búfalo disse quando o filho foi para a faculdade? Búfalo embora."
+      ]
+    }
+  ]
+}
